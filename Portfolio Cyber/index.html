@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- link css -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!-- links fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <!-- link icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- link swipper -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css'><link rel="stylesheet" href="./style.css">
+
+    <title>Portfólio Lirovsky</title>
+</head>
+<body>
+    <!-- início header -->
+    <header id="header">
+        <div class="header-top max-width">
+            <div class="header-imagens">
+                <a href="./index.html" class="borda-imagem">
+                    <img class="perfil" src="img/eu.jpg" alt="Imagem de uma pessoa">
+                </a>
+                <img class="logo" src="img/logo.png" alt="Logo da comunidade">
+            </div>
+            <nav id="navLinks">
+                <i class="fas fa-bars" id="btnMobile"></i>
+
+                <ul id="menu">
+                    <li>
+                        <a href="#home" class="btn-menu scroll-link">Home</a>
+                    </li>
+                    <li>
+                        <a href="#sobre" class="btn-menu scroll-link">Sobre</a>
+                    </li>
+                    <li>
+                        <a href="#skills" class="btn-menu scroll-link">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#projetos" class="btn-menu scroll-link">Projetos</a>
+                    </li>
+                    <li>
+                        <a href="#contato" class="btn-menu scroll-link">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main id="main">
+        <section class="section-1 max-width" id="home">
+            <h4>
+                Olá  
+                <span>
+                    <i class="fa-solid fa-handshake"></i>
+                </span> 
+                \ Eu sou o Pablo \ 
+                <span>
+                    <i class="fa-solid fa-user"></i>
+                </span>
+            </h4>
+            <h1>Desenvolvedor</h1>
+            <div>
+                <h1>Frontend</h1>
+                <div class="links">
+                    <a href="https://www.linkedin.com/in/pablo-langer-6300802a1/" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/Lirovsky" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="#" target="_blank">
+                        <i class="fa-solid fa-file-lines"></i>
+                    </a>
+                </div>
+            </div>
+            <p>Tenho 25 anos e sou desenvolvedor frontend com 1 ano de experiência trabalhando como freelancer.</p>
+        </section>
+
+        <section class="section-2" id="sobre">
+            <div class="sobre max-width">
+                <a href="" class="borda">
+                    <div class="texto-sobre">
+                        <h2>
+                            Um pouco sobre mim! 
+                            <span>
+                                <i class="fa-solid fa-user-secret">
+
+                                </i>
+                            </span>
+                        </h2>
+                        <p>
+                            Sou um Desenvolvedor Front End iniciante, 
+                            invisto nessa área a cerca de 1 ano, criando projetos pessoais e atuando como freelancer.
+                        </p>
+                        <p>
+                            Estou aberto a toda oportunidade de trabalho que me permita aprender cada vez mais. Se você tem uma boa oportunidade que esteja de acordo com a minha experiência não hesite em me chamar.
+                        </p>
+                        <p>
+                            Gosto muito da estética cyberpunk e busquei criar algo nesse estilo aqui.
+                        </p>
+                    </div>
+                </a>
+                <a href="" class="borda">
+                    <div class="texto-skills" id="skills">
+                        <h2>
+                            Habilidades 
+                            <span>
+                                <i class="fa-solid fa-mug-hot"></i>
+                            </span>
+                        </h2>
+                        <div class="content-skills">
+                            <button class="btn-skill"> HTML</button>
+                            <button class="btn-skill"> CSS</button>
+                            <button class="btn-skill"> JS</button>
+                            <button class="btn-skill"> GITHUB</button>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <section class="section-3" id="projetos">
+            <div class="projetos max-width">
+                <h2>
+                    <span><i class="fa-solid fa-code"></i></span>
+                    Projetos 
+                    <span><i class="fa-solid fa-code"></i></span>
+                </h2>
+                
+                <div class="blog-slider">
+                    <div class="blog-slider__wrp swiper-wrapper">
+                        <div class="blog-slider__item swiper-slide">
+                            <div class="blog-slider__img">
+                                <img src="img/projetos.jpeg" alt="">
+                            </div>
+                            <div class="blog-slider__content">
+                                <div class="blog-slider__title">Clone do Youtube <span><i class="fa-brands fa-youtube"></i></span></div>
+                                <div class="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi? </div>
+                                <a href="#" class="blog-slider__button">VER PROJETO <span><i class="fa-solid fa-arrow-right"></i></span></a>
+                            </div>
+                        </div>
+                        <div class="blog-slider__item swiper-slide">
+                            <div class="blog-slider__img">
+                                <img src="img/projetos.jpeg" alt="">
+                            </div>
+                            <div class="blog-slider__content">
+                                <div class="blog-slider__title">Site aleatório? <span><i class="fa-solid fa-cart-shopping"></i></span></div>
+                                <div class="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi? </div>
+                                <a href="#" class="blog-slider__button">VER PROJETO <span><i class="fa-solid fa-arrow-right"></i></span></a>
+                            </div>
+                        </div>
+                    <div class="blog-slider__pagination"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="contato">
+        <div class="footer max-width">
+            <a href="#">
+                <span class="arrow"><i class="fa-solid fa-angle-up"></i></span>
+            </a>
+            <div class="superior">
+                <div class="contato">
+                    <h3>Contato</h3>
+                    <li>
+                        <a href="https://www.linkedin.com/in/pablo-langer-6300802a1/" target="_blank" class="link">
+                            <span><i class="fa-brands fa-linkedin"></i></span>
+                            Linkedin
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:pablolangerprofissional@gmail.com" target="_blank" class="link">
+                            <span><i class="fa-solid fa-envelope"></i></span>
+                            pablolangerprofissional@gmail.com
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="link">
+                            <span><i class="fa-solid fa-file-lines"></i></span>
+                            Curriculo
+                        </a>
+                    </li>
+                </div>
+                <div class="social">
+                    <h3>Social</h3>
+                    <ul class="ul-icons">
+                        <li>
+                            <a href="https://github.com/Lirovsky" target="_blank" class="link">
+                                <span><i class="fa-brands fa-github"></i></span>
+                                Github
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/lirovsky/" target="_blank" class="link">
+                                <span><i class="fa-brands fa-instagram"></i></span>
+                                Instagram
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://t.me/Lirovsky" target="_blank" class="link">
+                                <span><i class="fa-brands fa-telegram"></i></span>
+                                Telegram
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="inferior">
+                <p>© Copyright 2023. Feito por LiroDev.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- link swipper -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js'></script>
+    <!-- link JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
